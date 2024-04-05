@@ -19,24 +19,25 @@ r
 где r — радиус окружности
 
 РЕШЕНИЕ:
+
 type = str(input())
 ''' 
-a = float(input())
-b = float(input())
-c = float(input())
+st1 = float(input()) //st - сторона
+st2 = float(input())
+st3 = float(input())
 r = int(input())
-p = ((a + b + c)) / 2 '''
+p = ((st1 + st2 + st3)) / 2 '''
 
 if type == 'треугольник':
-    a = float(input())
-    b = float(input())
-    c = float(input())
-    p = ((a + b + c)) / 2
-    print ((p*(p-a)*(p-b)*(p-c)) ** 0.5)
+    st1 = float(input())
+    st2 = float(input())
+    st3 = float(input())
+    p = ((st1 + st2 + st3)) / 2
+    print ((p*(p-st1)*(p-st2)*(p-st3)) ** 0.5)
 elif type == 'прямоугольник':
-    a = float(input())
-    b = float(input())
-    print(a * b)
+    st1 = float(input())
+    st2 = float(input())
+    print(st1 * st2)
 elif type == 'круг':
         r = float(input())
         print(3.14 * (r ** 2))
