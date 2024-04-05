@@ -9,27 +9,27 @@ div — целочисленное деление.
 Обратите внимание, что на вход программе приходят вещественные числа:
 
 РЕШЕНИЕ:
-                a = float(input())
-                b = float(input())
-                op = str(input())
+                x = float(input())
+                y = float(input())
+                calc = str(input())
                 
-                if op == '+':
-                    print(a + b)
-                elif op == "-":
-                     print(a - b)
-                elif op == "/" and b == 0:
+                if calc == '+':
+                    print(x + y)
+                elif calc == "-":
+                     print([x - y)
+                elif calc == "/" and y == 0:
                      print('Деление на 0!')
-                elif op == "/" and b != 0:
-                     print(a / b)
-                elif op == '*':
-                     print(a * b)
-                elif op == 'mod' and b == 0:
+                elif calc == "/" and y != 0:
+                     print(x / y)
+                elif calc == '*':
+                     print(x * y)
+                elif calc == 'mod' and y == 0:
                      print('Деление на 0!')
-                elif op == "mod" and b != 0:
-                     print(a % b)
-                elif op == 'pow':
-                     print(a ** b)
-                elif op == 'div' and b == 0:
+                elif calc == "mod" and y != 0:
+                     print(x % y)
+                elif calc == 'pow':
+                     print(x ** y)
+                elif calc == 'div' and y == 0:
                      print('Деление на 0!')
-                elif op == 'div' and b != 0:
-                     print(a // b)
+                elif calc == 'div' and y != 0:
+                     print(x // y)
